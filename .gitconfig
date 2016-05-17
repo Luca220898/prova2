@@ -1,0 +1,13 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
+[user]
+	name = Luca220898
+[user]
+	email = luca.calzavacca@galileo.galileicrema.it
+[http]
+	proxy = http://4ia10:QuartaIA15167@10.0.1.230:80
+	
+[https]
+	proxy = http://4ia10:QuartaIA15167@10.0.1.230:80
